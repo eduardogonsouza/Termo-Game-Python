@@ -1,7 +1,7 @@
 import random
 from readFiles import generationRandomWords
 
-randomWords = "SABER"
+randomWords = generationRandomWords()
 print(randomWords)
 
 while True:
