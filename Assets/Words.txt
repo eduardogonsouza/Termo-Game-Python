@@ -1,1 +1,1 @@
-Aceno,Bico,Cesto,Dedo,Fofo,Gato,Homem,Inhame,Jantar,Lixo,Mesa,Noite,Ovo,Pato,Queijo,Rato,Saco,Tempo,Uva,Vento
+Agua;Musca;Oculos;Dolar;Creme;Cesta;Chuva;Fogue;Hotel;Farol;Canto;Livro;Luvas;Doce;Foice;Tempo;Sabor;Corte;Garfo;Fruta;Canto;Ponto;Folha;Lirio;Filho;Dente;Mesa;Marca;Risco;Flori;Brasa;Pular;Livre;Troca;Frio;Sinal;Riacho;Forca;Vento;Cigar;Bolo;Amigo;Feixe;Roupa;Meado;Mante;Brisa;Raste;Limpo;Maca
