@@ -1,28 +1,19 @@
-import random
 from readFiles import generationRandomWords
+from Utils.InputLimited import inputLimited
+from Utils.utilsCode import CLEAR_RIGHT, PREV_LINE, terminalSize
+from Games.termo import gameTermo
+from termcolor import colored
+import os, time
 
 randomWords = generationRandomWords()
+
+os.system("cls")
+
+
+print("Digite uma palavra com 5 Letras")
 print(randomWords)
 
-while True:
-    testArray = []
-    userResponse = input().upper()
 
-    for i in range(5):
-        if randomWords[i] == userResponse[i]:
-            print(f"{userResponse[i]} - Posição correta")
-            testArray.append(2)
-        else:
-            positionLetter = randomWords.find(userResponse[i])
-            if positionLetter != -1:
-                print(f"{userResponse[i]} - Existe, posição errada")
-                testArray.append(1)
-            else:
-                print(f"{userResponse[i]} - Não existe")
-                testArray.append(0)
+countAttempt = 1
 
-    print(testArray)
-    testArray = []
-
-    if randomWords == userResponse:
-        break
+gameTermo(randomWords)

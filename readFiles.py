@@ -1,5 +1,5 @@
-from colorama import Fore, Back, Style
 import random
+from colorama import Fore, Back, Style
 
 
 def generationRandomWords():
